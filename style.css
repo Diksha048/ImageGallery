@@ -1,5 +1,28 @@
-#img{
-    height: 400px;
-    margin: 40px auto;
+
+.img-gallery{
+    height: 500px;
+    width: 700px;
+    object-fit:cover;
     display: block;
+    margin: 30px auto;
+}
+.button{
+position: absolute;
+}
+.button-left{
+left: 0;
+top: 50%;
+height: 40px;
+}
+.button-right{
+right: 0;
+top: 50%;
+height: 35px;
+margin: 2px;
+}
+.container{
+    position: relative;
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
 }
